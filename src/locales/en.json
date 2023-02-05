@@ -1,0 +1,70 @@
+{
+  "header": {
+    "link1": "Get advice",
+    "link2": "Contact"
+  },
+  "sections": {
+    "intro": {
+      "headline": "I am Viktor Pershikov, <br>an asset manager",
+      "text": {
+        "yellow1": "I manage a European investment fund",
+        "text1": "and advise companies on investments, regulation and business development in the field of",
+        "yellow2": "digital financial assets."
+      }
+    },
+    "features": {
+      "headline": "SKILLS",
+      "consulting": {
+        "headline": "Consulting",
+        "p1": {
+          "text1": "Advising a ",
+          "yellow": "Swiss investment company"
+        },
+        "p2": {
+          "text1": "Giving ",
+          "yellow1": "expert opinion",
+          "text2": " to mass media"
+        },
+        "p3": {
+          "text1": " Participating in conferences and meetups"
+        }
+      },
+      "analytics": {
+        "headline": "Analytics",
+        "p1": "Shaping management strategies",
+        "p2": "Conducting fundamental evaluation of projects",
+        "p3": "Analyzing the digital assets market"
+      },
+      "trading": {
+        "headline": "Trading",
+        "p1": {
+          "text": "Managing the assets of an ",
+          "yellow": "investment fund"
+        },
+        "p2": "Applying hedging techniques",
+        "p3": "Using up-to-date strategies"
+      },
+      "publishing": {
+        "headline": "Publications",
+        "p1": {
+          "text": "Publishing ",
+          "yellow": "studies and market reviews"
+        },
+        "p2": "Developing methods of asset valuation",
+        "p3": {
+          "text1": "I am an author of ",
+          "yellow": "books",
+          "text2": " on financial analysis"
+        }
+      }
+    },
+    "media": {
+      "headline": "Media",
+      "text": "Commentary for mass media and market analytics."
+    }
+  },
+  "footer": {
+    "btn": "Get advice",
+    "address": "Rotermanni st., 6,<br> Tallin, Estonia 10111"
+  }
+}

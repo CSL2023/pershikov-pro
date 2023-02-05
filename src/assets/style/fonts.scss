@@ -1,0 +1,22 @@
+$golos-text-path: "../fonts/Golos-Text";
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$golos-text-path}/Golos-Text_DemiBold.woff2') format('woff2'), url('#{$golos-text-path}/Golos-Text_DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$golos-text-path}/Golos-Text_Medium.woff2') format('woff2'), url('#{$golos-text-path}/Golos-Text_Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$golos-text-path}/Golos-Text_Regular.woff2') format('woff2'), url('#{$golos-text-path}/Golos-Text_Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

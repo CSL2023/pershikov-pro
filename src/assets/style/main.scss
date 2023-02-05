@@ -1,0 +1,107 @@
+@import "reset-css/reset.css";
+@import "vars";
+@import "fonts";
+
+html, body {
+  scrollbar-color: $color-yellow $color-dark-gray; /* «цвет ползунка» «цвет полосы скроллбара» */
+  scrollbar-width: thin;  /* толщина */
+  background: $color-dark-gray;
+  color: $color-white;
+}
+
+::-webkit-scrollbar {
+  width: 4px; /* ширина для вертикального скролла */
+  height: 4px; /* высота для горизонтального скролла */
+  background-color: $color-dark-gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-yellow;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $color-yellow;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:horizontal:end:increment {
+  display: none;
+}
+
+
+body {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: hidden;
+  max-width: 100vw;
+}
+
+h1 {
+  font-family: 'Golos', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(1.75rem, 1.2500rem + 2.2222vw, 3.25rem);
+  line-height: 62px;
+  @media screen and (max-width: 570px) {
+    line-height: 130%;
+  }
+}
+
+h2 {
+  font-family: 'Golos', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(2.5rem, 1.9790rem + 2.3156vw, 4.063rem);
+  line-height: 122%;
+  @media screen and (max-width: 570px) {
+    line-height: 48px;
+  }
+}
+
+h3 {
+  font-family: 'Golos', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(1.875rem, 1.6667rem + 0.9259vw, 2.5rem);
+  line-height: 48px;
+  @media screen and (max-width: 570px) {
+    line-height: 36px;
+  }
+}
+
+figcaption {
+  font-family: 'Golos', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1rem, 0.7500rem + 1.1111vw, 1.75rem);
+  line-height: 150%;
+}
+
+p {
+  font-family: 'Golos', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, 0.8333rem + 0.7407vw, 1.5rem);
+  line-height: 145%;
+
+}
+
+a {
+  color: $color-yellow;
+  text-decoration: underline;
+}
+
+.text-yellow {
+  color: $color-yellow;
+
+}
