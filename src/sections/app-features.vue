@@ -8,14 +8,10 @@
         <h3>{{ t('sections.features.consulting.headline') }}</h3>
         <p>
           {{ t('sections.features.consulting.p1.text1') }}
-          <a
-            href="https://8848invest.swiss"
-            target="_blank"
-            rel="nofollow"
-            class="text-yellow"
+          <span
           >
             {{ t('sections.features.consulting.p1.yellow') }}
-          </a>
+          </span>
         </p>
         <p>
           {{ t('sections.features.consulting.p2.text1') }}
@@ -43,7 +39,7 @@
         <p>
           {{ t('sections.features.trading.p1.text') }}
           <a
-            href="https://mineglobal.ee"
+            href="https://caslinvest.com"
             target="_blank"
             rel="nofollow"
             class="text-yellow"

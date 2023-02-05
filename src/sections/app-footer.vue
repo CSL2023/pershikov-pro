@@ -2,7 +2,7 @@
   <footer class="footer">
     <a
       class="tg-btn"
-      href="https://t.me/ViktorAnalyst"
+      href="https://t.me/pershikov"
       target="_blank"
       aria-label="button"
     >
