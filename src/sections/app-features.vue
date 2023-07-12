@@ -37,15 +37,13 @@
       <div class="card">
         <h3>{{ t('sections.features.trading.headline') }}</h3>
         <p>
-          {{ t('sections.features.trading.p1.text') }}
-          <a
-            href="https://caslinvest.com"
-            target="_blank"
-            rel="nofollow"
-            class="text-yellow"
-          >
-            {{ t('sections.features.trading.p1.yellow') }}
-          </a>
+          {{ t('sections.features.trading.p1.text') + ' ' + t('sections.features.trading.p1.yellow') }}
+          <!--<a-->
+          <!--  href="https://caslinvest.com"-->
+          <!--  target="_blank"-->
+          <!--  rel="nofollow"-->
+          <!--  class="text-yellow"-->
+          <!--/>-->
         </p>
         <p v-text="t('sections.features.trading.p2')" />
         <p v-text="t('sections.features.trading.p3')" />
